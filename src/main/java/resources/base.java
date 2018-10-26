@@ -49,7 +49,7 @@ import pageObjects.LoginPage;
 		}
 		else if(browserName.equals("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "C:\\driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if(browserName.equals("ie"))
