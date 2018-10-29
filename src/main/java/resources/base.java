@@ -33,7 +33,7 @@ import pageObjects.LoginPage;
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestFirefoxCCP\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestChromeCCP\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		url = prop.getProperty("url");
@@ -69,7 +69,14 @@ import pageObjects.LoginPage;
 		driver.get(url);
 		driver.manage().window().maximize();
 				
-LoginPage lp = new LoginPage(driver);
+		LoginPage lp = new LoginPage(driver);
+		
+		if(driver.getTitle().contains("Shop - CCP"))
+		{
+			
+		Assert.assertEquals(driver.getTitle(), "CCP Login","The User is already Login into the application");
+		Log.error("User is already Login to the application");
+		}
 		
 		boolean Email_present;
 		try {
