@@ -66,6 +66,7 @@ public class ValidateSmokeTest extends base {
 	public void ValidateMarkITPlacePage() throws InterruptedException {
 		// Header hd = new Header(driver);
 		HomePage hm = new HomePage(driver);
+		Thread.sleep(5000);
 		boolean MarketPlace_present;
 		try {
 			hm.getMarketPlace_Link().click();
@@ -140,6 +141,7 @@ public class ValidateSmokeTest extends base {
 		boolean Manage_present;
 		try {
 			hm.getManage_Link().click();
+			Thread.sleep(5000);
 			Manage_present = true;
 			Log.info("User has Clicked on the Manage tab from the Home Dashboard");
 
@@ -363,6 +365,7 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateLogout() throws InterruptedException {
 
+		WebDriverWait wt = new WebDriverWait(driver, 50);
 		Header hd = new Header(driver);
 
 		boolean AccountMenu_present;
@@ -379,8 +382,11 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
 
+		wt.until(ExpectedConditions.elementToBeClickable(hd.getLogout()));
+
 		boolean Logout_present;
 		try {
+
 			hd.getLogout().click();
 			Logout_present = true;
 			Log.info("User has clicked on the Logout Page from the Account Menu");
@@ -402,7 +408,10 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
+		WebDriverWait wt = new WebDriverWait(driver, 50);
+		Thread.sleep(5000);
 
+		wt.until(ExpectedConditions.elementToBeClickable(lp.getForget_Pswd()));
 		boolean ForgetPswd_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -440,7 +449,7 @@ public class ValidateSmokeTest extends base {
 
 		}
 		Assert.assertEquals(email_present, true, "Email Address textbox is not Present in the Forget password Page");
-
+		wt.until(ExpectedConditions.elementToBeClickable(fp.getSbmt_Btn()));
 		boolean SbmtBtn_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -456,6 +465,8 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(SbmtBtn_present, true, "Submit button is not Present in the Forget password Page");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(fp.getValidation_Message()));
 		boolean validation_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -480,6 +491,11 @@ public class ValidateSmokeTest extends base {
 	public void ValidateRegPage() throws InterruptedException {
 		driver.get(url);
 		LoginPage lp = new LoginPage(driver);
+
+		WebDriverWait wt = new WebDriverWait(driver, 50);
+		Thread.sleep(5000);
+
+		wt.until(ExpectedConditions.elementToBeClickable(lp.getCreate_Account()));
 		boolean CreateAcc_present;
 		try {
 			lp.getCreate_Account().click();
