@@ -71,12 +71,16 @@ import pageObjects.LoginPage;
 			Thread.sleep(5000);
 		LoginPage lp = new LoginPage(driver);
 		
-		if(driver.getTitle().contains("Shop - CCP"))
-		{
-			
-		Assert.assertEquals(driver.getTitle(), "CCP Login","The User is already Login into the application");
-		Log.error("User is already Login to the application");
+		boolean AlreadyLogin=false;
+		if (driver.getTitle().contains("Shop - CCP")) {
+
+			//Assert.assertEquals(driver.getTitle(), "CCP Login", "The User is already Login into the application");
+			Log.error("User is already Login to the application");
+			AlreadyLogin = true;
+			Thread.sleep(3000);
 		}
+		
+		if(AlreadyLogin==false){
 		
 		boolean Email_present;
 		try {
@@ -118,7 +122,7 @@ import pageObjects.LoginPage;
 		
 		Assert.assertEquals(Login_present, true,"Login button is not appearing in the login page");
 
-		
+		}
 		
 		
 		/*
