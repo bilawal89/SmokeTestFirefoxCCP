@@ -1,180 +1,205 @@
-14:23:17.696 [main] INFO  resources.base - The title of the home page is captured
-14:23:17.705 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-14:23:19.643 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-14:23:19.643 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-14:23:38.030 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-14:23:38.032 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-14:23:38.034 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-14:23:38.178 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-14:23:38.186 [main] INFO  resources.base - Calendar link is present on the Manage Page
-14:23:38.194 [main] INFO  resources.base - Subscription link is present on the Manage Page
-14:23:39.048 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-14:23:39.191 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-14:23:39.382 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-14:23:39.389 [main] INFO  resources.base - Report Link is present on the Insight Page
-14:23:46.666 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-14:23:46.666 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-14:23:46.699 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-14:23:46.705 [main] INFO  resources.base - Notification heading is present on the Notifications page
-14:23:46.710 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-14:23:46.718 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-14:23:47.985 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-14:23:47.989 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-14:23:48.254 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-14:23:49.216 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-14:23:49.631 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-14:23:54.659 [main] INFO  resources.base - Email textbox is present on the Forget password page
-14:23:56.372 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-14:23:56.381 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-14:24:38.015 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-14:24:38.018 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-14:24:38.045 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-14:24:38.283 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-14:24:38.299 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
-11:56:27.759 [main] INFO  resources.base - The title of the home page is captured
-11:56:27.760 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-11:56:29.949 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-11:56:29.949 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-11:56:38.988 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-11:56:38.988 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-11:56:38.992 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-11:56:39.029 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-11:56:39.035 [main] INFO  resources.base - Calendar link is present on the Manage Page
-11:56:39.042 [main] INFO  resources.base - Subscription link is present on the Manage Page
-11:56:39.916 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-11:56:39.919 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-11:56:39.963 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-11:56:39.968 [main] INFO  resources.base - Report Link is present on the Insight Page
-11:56:50.253 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-11:56:50.253 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-11:56:50.291 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-11:56:50.297 [main] INFO  resources.base - Notification heading is present on the Notifications page
-11:56:50.304 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-11:56:50.309 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-11:56:51.347 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-11:56:51.351 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-11:56:52.498 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-11:56:52.765 [main] ERROR resources.base - User not able to click on the Logout Page from the Account Menu
-11:56:52.768 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/auth/logout"> could not be scrolled into view
+21:29:43.503 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:30:21.126 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+21:30:21.236 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+21:30:39.164 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+21:30:39.214 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+21:30:41.534 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:30:41.586 [main] ERROR resources.base - User not able to click on the Change Password Link from the Account Menu
+21:30:41.586 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/users/change-password"> could not be scrolled into view
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15656, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 47f54736-8518-45cf-83e5-9057182e7304
-11:57:13.334 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
-11:57:13.334 [main] ERROR resources.base - Unable to locate element: //a[@id='forgetUrl']
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+21:31:13.694 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+21:31:13.760 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+21:31:28.006 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+21:31:28.054 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+21:31:38.849 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+21:31:38.934 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+21:31:44.237 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:31:44.260 [main] ERROR resources.base - User not able to click on the Set Notification Link from the Account Menu
+21:31:44.260 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/notifications"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+21:31:46.576 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:31:46.646 [main] ERROR resources.base - User not able to click on the Address of Use Link from the Account Menu
+21:31:46.646 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/account/address-request"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+21:31:51.924 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:31:51.946 [main] ERROR resources.base - User not able to click on the users link from the Account Menu
+21:31:51.946 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/users"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+21:32:12.002 [main] ERROR resources.base - User not able to click on request tab on the users page
+21:32:12.002 [main] ERROR resources.base - Unable to locate element: //a[text()='Requests ']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15656, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 47f54736-8518-45cf-83e5-9057182e7304
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+*** Element info: {Using=xpath, value=//a[text()='Requests ']}
+21:32:32.051 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+21:32:32.051 [main] ERROR resources.base - Unable to locate element: //a[text()='Invites ']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+*** Element info: {Using=xpath, value=//a[text()='Invites ']}
+21:32:34.357 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+21:32:34.426 [main] ERROR resources.base - User not able to click on the Logout Page from the Account Menu
+21:32:34.426 [main] ERROR resources.base - Element <a href="http://ccpqa-customerportal.arpatech.com/auth/logout"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
+21:32:54.451 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+21:32:54.451 [main] ERROR resources.base - Unable to locate element: //a[@id='forgetUrl']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
 *** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
-11:57:35.134 [main] ERROR resources.base - User not able to find Create Account Link on the Login Page , hence not able to click it
-11:57:35.134 [main] ERROR resources.base - Unable to locate element: //a[text()='Create Account']
+21:33:15.832 [main] ERROR resources.base - User not able to find Create Account Link on the Login Page , hence not able to click it
+21:33:15.832 [main] ERROR resources.base - Unable to locate element: //a[text()='Create Account']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15656, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 47f54736-8518-45cf-83e5-9057182e7304
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49e2779f-ec1e-4277-aba8-3b94a8c3e5a6
 *** Element info: {Using=xpath, value=//a[text()='Create Account']}
-12:27:09.480 [main] INFO  resources.base - The title of the home page is captured
-12:27:09.510 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-12:27:15.811 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-12:27:15.811 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-12:27:25.138 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-12:27:25.138 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-12:27:25.158 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-12:27:25.185 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-12:27:25.236 [main] INFO  resources.base - Calendar link is present on the Manage Page
-12:27:25.260 [main] INFO  resources.base - Subscription link is present on the Manage Page
-12:27:26.295 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-12:27:26.295 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-12:27:26.317 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-12:27:26.339 [main] INFO  resources.base - Report Link is present on the Insight Page
-12:27:42.868 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-12:27:42.886 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-12:27:42.908 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-12:27:42.932 [main] INFO  resources.base - Notification heading is present on the Notifications page
-12:27:42.957 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-12:27:42.983 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-12:27:44.062 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-12:27:44.062 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-12:27:44.551 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-12:27:45.480 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-12:27:51.061 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-12:27:56.146 [main] INFO  resources.base - Email textbox is present on the Forget password page
-12:27:56.864 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-12:27:56.888 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-12:28:18.098 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-12:28:18.098 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-12:28:18.194 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-12:28:18.495 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-12:28:18.514 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
-15:26:47.938 [main] INFO  resources.base - The title of the home page is captured
-15:26:47.938 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-15:26:54.939 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-15:26:54.939 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-15:27:12.028 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-15:27:12.028 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-15:27:12.028 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-15:27:12.051 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-15:27:12.071 [main] INFO  resources.base - Calendar link is present on the Manage Page
-15:27:12.105 [main] INFO  resources.base - Subscription link is present on the Manage Page
-15:27:13.952 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-15:27:13.973 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-15:27:13.998 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-15:27:14.041 [main] INFO  resources.base - Report Link is present on the Insight Page
-15:27:37.176 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-15:27:37.176 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-15:27:37.236 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-15:27:37.261 [main] INFO  resources.base - Notification heading is present on the Notifications page
-15:27:37.289 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-15:27:37.311 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-15:27:38.524 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-15:27:38.524 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-15:27:38.867 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-15:27:39.818 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-15:27:45.287 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-15:27:50.344 [main] INFO  resources.base - Email textbox is present on the Forget password page
-15:27:51.370 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-15:27:51.476 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-15:29:26.950 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-15:29:26.950 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-15:29:26.999 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-15:29:27.281 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-15:29:27.306 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
-22:20:32.386 [main] INFO  resources.base - The title of the home page is captured
-22:20:32.408 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
-22:20:38.817 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
-22:20:38.817 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
-22:20:47.522 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
-22:20:47.522 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
-22:20:47.528 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
-22:20:47.583 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
-22:20:47.591 [main] INFO  resources.base - Calendar link is present on the Manage Page
-22:20:47.601 [main] INFO  resources.base - Subscription link is present on the Manage Page
-22:20:48.745 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
-22:20:48.750 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
-22:20:48.798 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
-22:20:48.807 [main] INFO  resources.base - Report Link is present on the Insight Page
-22:21:05.947 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
-22:21:05.947 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
-22:21:05.988 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
-22:21:05.995 [main] INFO  resources.base - Notification heading is present on the Notifications page
-22:21:06.005 [main] INFO  resources.base - All Notification tab is present on the Notifications page
-22:21:06.014 [main] INFO  resources.base - Flagged tab is present on the Notifications page
-22:21:07.382 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
-22:21:07.389 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
-22:21:07.695 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
-22:21:08.755 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
-22:21:14.241 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
-22:21:19.279 [main] INFO  resources.base - Email textbox is present on the Forget password page
-22:21:21.094 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
-22:21:21.177 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
-22:22:12.949 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
-22:22:12.954 [main] INFO  resources.base - Signup Page is opended and its title is being captured
-22:22:12.981 [main] INFO  resources.base - Email Text Box is present on the Signup Page
-22:22:13.222 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
-22:22:13.231 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+22:01:05.553 [main] INFO  resources.base - The title of the home page is captured
+22:01:05.553 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+22:01:08.799 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+22:01:08.799 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+22:01:16.701 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+22:01:16.701 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:01:16.701 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+22:01:16.741 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+22:01:16.788 [main] INFO  resources.base - Calendar link is present on the Manage Page
+22:01:16.811 [main] INFO  resources.base - Subscription link is present on the Manage Page
+22:01:20.823 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+22:01:20.823 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+22:01:20.847 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+22:01:20.871 [main] INFO  resources.base - Report Link is present on the Insight Page
+22:01:40.402 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+22:01:40.402 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+22:01:40.450 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+22:01:40.480 [main] INFO  resources.base - Notification heading is present on the Notifications page
+22:01:40.517 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+22:01:40.523 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+22:01:48.783 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+22:01:48.783 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+22:01:51.029 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:02:20.349 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+22:02:20.426 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+22:02:43.493 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+22:02:43.547 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+22:02:45.785 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:03:01.736 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+22:03:01.784 [main] INFO  resources.base - Change password heading is present on Change Password Page
+22:03:34.043 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+22:03:34.151 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+22:03:57.026 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+22:03:57.094 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+22:04:12.024 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+22:04:12.089 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+22:04:17.253 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:04:23.248 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+22:04:25.406 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:04:43.136 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+22:04:48.237 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+22:04:53.422 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:07:05.740 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+22:07:10.827 [main] INFO  resources.base - Tabs are appearing on the Users Page
+22:07:13.223 [main] INFO  resources.base - User has clicked on the request tab on the users page
+22:07:13.274 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+22:07:15.601 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+22:07:15.643 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+22:07:17.812 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:07:20.981 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+22:07:21.588 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+22:07:26.625 [main] INFO  resources.base - Email textbox is present on the Forget password page
+22:07:30.508 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+22:07:30.525 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+22:07:48.958 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+22:07:48.958 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+22:07:48.984 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+22:07:49.306 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+22:07:49.334 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+22:12:22.768 [main] INFO  resources.base - The title of the home page is captured
+22:12:22.768 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+22:12:26.080 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+22:12:26.080 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+22:12:40.657 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+22:12:40.657 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:12:40.657 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+22:12:40.711 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+22:12:40.734 [main] INFO  resources.base - Calendar link is present on the Manage Page
+22:12:40.759 [main] INFO  resources.base - Subscription link is present on the Manage Page
+22:12:46.238 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+22:12:46.238 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+22:12:46.258 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+22:12:46.282 [main] INFO  resources.base - Report Link is present on the Insight Page
+22:13:43.906 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+22:13:43.906 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+22:13:43.933 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+22:13:43.955 [main] INFO  resources.base - Notification heading is present on the Notifications page
+22:13:43.982 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+22:13:44.013 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+22:13:51.758 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+22:13:51.758 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+22:13:53.990 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:14:17.857 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+22:14:17.935 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+22:14:41.883 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+22:14:41.951 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+22:14:44.140 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:15:12.183 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+22:15:12.233 [main] INFO  resources.base - Change password heading is present on Change Password Page
+22:15:24.285 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+22:15:24.383 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+22:15:32.775 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+22:15:32.859 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+22:15:49.528 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+22:15:49.602 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+22:15:54.779 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:16:00.742 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+22:16:02.960 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:16:44.185 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+22:16:49.284 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+22:16:54.466 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:17:15.439 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+22:17:20.521 [main] INFO  resources.base - Tabs are appearing on the Users Page
+22:17:22.827 [main] INFO  resources.base - User has clicked on the request tab on the users page
+22:17:22.891 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+22:17:25.175 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+22:17:25.224 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+22:17:27.395 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+22:17:30.184 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+22:17:30.584 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+22:17:35.665 [main] INFO  resources.base - Email textbox is present on the Forget password page
+22:17:39.406 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+22:17:39.435 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+22:17:53.523 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+22:17:53.523 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+22:17:53.569 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+22:17:53.852 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+22:17:53.854 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
