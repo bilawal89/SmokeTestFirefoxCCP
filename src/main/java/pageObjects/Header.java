@@ -35,7 +35,7 @@ By SetNotifications=By.xpath("//div[@class='account-menu']//a[text()='Set Notifi
 
 By Address=By.xpath("//div[@class='account-menu']//a[text()='Address Of Use']");
 
-By Users=By.xpath("//div[@class='account-menu']//a[text()='Users']");
+By Users=By.xpath("//div[@class='account-menu']//a[text()='User Management']");
 
 
 public WebElement getMenu_List()
