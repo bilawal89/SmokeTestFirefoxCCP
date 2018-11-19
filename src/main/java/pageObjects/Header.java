@@ -33,7 +33,7 @@ By ChangePassword=By.xpath("//div[@class='account-menu']//a[text()='Change Passw
 
 By SetNotifications=By.xpath("//div[@class='account-menu']//a[text()='Set Notifications']");
 
-By Address=By.xpath("//div[@class='account-menu']//a[text()='Address Of Use']");
+By Address=By.xpath("//div[@class='account-menu']//a[text()='Address of Use']");
 
 By Users=By.xpath("//div[@class='account-menu']//a[text()='User Management']");
 
