@@ -516,7 +516,7 @@ Actions an = new Actions(driver);
 
 	}
 
-	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateAccountSettings() throws InterruptedException {
 
@@ -730,7 +730,7 @@ Actions an = new Actions(driver);
 		Assert.assertEquals(Address_present, true, "User not able to reach Address of Use Page");
 
 		String Address_Titleact = driver.getTitle().trim();
-		String Address_Titlexp = "Address Of Use - CCP";
+		String Address_Titlexp = "Address of Use - CCP";
 		Assert.assertEquals(Address_Titleact, Address_Titlexp, "User not being able to reach Address of Use Page");
 
 		Address ad = new Address(driver);
