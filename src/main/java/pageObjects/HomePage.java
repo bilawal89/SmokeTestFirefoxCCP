@@ -10,8 +10,7 @@ public class HomePage {
 	
 public WebDriver driver;
 	
-	//By Usernamefield=By.name("username");
-	//By Searchbox=By.xpath("//input[@id='x_main-search']");
+
 	By Application_Link=By.xpath("//a[@class='top-link' and text()='Application']");
 	By Infrastructure_Link=By.xpath("//a[@class='top-link' and text()='Infrastructure']");
 	By Platform_Link=By.xpath("//a[@class='top-link' and text()='Platform']");
@@ -19,27 +18,58 @@ public WebDriver driver;
 	By header=By.xpath("//div[@class='top-shadow-container']");
 	By Manage_Link=By.xpath("//a[@class='track  ' and text()='Manage']");
 	By Insight_Link=By.xpath("//a[@class='insights ' and text()='Insights']");
-	
-	
 	By MarketPlace_Link=By.xpath("//a[text()='MarketPlace']");
+	By CustomersTab=By.xpath("//a[@class='shop active']");
+	By CatalogTab=By.xpath("//a[@class='track']");
+	By FullfillmentTab=By.xpath("//a[@class='insights']");
+	By ReportsTab=By.xpath("//a[@class='reports']");
+	By UsersTab=By.xpath("//a[@class='users ']");
+	By Main_Search=By.xpath("//input[@id='main-search']");
+	By Consulting=By.xpath("//a[@class='top-link' and text()='Consulting']");
+	By Discover=By.xpath("//a[@class='top-link' and text()='Discover']");
 	
-	//By SearchboxFF=By.xpath("//input[@id='x_main-search' and @class='main-search']");
-	//By SearchboxFF=By.id("x_main-search");
 	
-	//By SearchboxFF=By.xpath("//form[@id='predictiveSearchBarForm']");
-	//By StandardCatalogBtn=By.linkText("Shop Standards Catalog");
-	//By ShopAllProductBtn=By.linkText("Shop All Products");
-	//By AllMyfavrtsLinks=By.linkText("See all my favorites");
-	//By RecentlyViewedLink=By.linkText("See all recently viewed");
-	//By FavrtsBckBtn=By.className("#slick-prev.slick-arrow");
-	//By FavrtsBckBtn=By.xpath("//button[@class='slick-prev slick-arrow']");
+	public WebElement getDiscover()
+	{
+		return driver.findElement(Discover);
+	}
 	
-	//By FavrtsFrwrdBtn=By.className("#slick-next.slick-arrow");
-	//By FavrtsFrwrdBtn=By.xpath("//button[@class='slick-next slick-arrow']");
-	//By Passwordfield=By.name("password");
-	//By Loginbtn=By.xpath("//input[@value='Login']");
+	public WebElement getConsulting()
+	{
+		return driver.findElement(Consulting);
+	}
 	
-	//By FavoriteLink=By.xpath("//a[@class='my-lists']");
+	public WebElement getMain_Search()
+	{
+		return driver.findElement(Main_Search);
+	}
+	
+	public WebElement getUsersTab()
+	{
+		return driver.findElement(UsersTab);
+	}
+	
+	public WebElement getReportsTab()
+	{
+		return driver.findElement(ReportsTab);
+	}
+	
+	public WebElement getFullfillmentTab()
+	{
+		return driver.findElement(FullfillmentTab);
+	}
+	
+	public WebElement getCatalogTab()
+	{
+		return driver.findElement(CatalogTab);
+	}
+	
+	public WebElement getCustomersTab()
+	{
+		return driver.findElement(CustomersTab);
+	}
+	
+	
 	public WebElement getInsight_Link()
 	{
 		return driver.findElement(Insight_Link);
@@ -84,53 +114,15 @@ public WebDriver driver;
 		return driver.findElement(Infrastructure_Link);
 	}
 	
-	
-	
 	public WebElement getPlatform_Link()
 	{
 		return driver.findElement(Platform_Link);
 	}
 	
-
-	
-
 	public WebElement getService_Link()
 	{
 		return driver.findElement(Service_Link);
 	}
-	
-	
-	
-	/*
-	public WebElement getShopAllProductBtn()
-	{
-		return driver.findElement(ShopAllProductBtn);
-	}
-	
-	public WebElement getAllMyfavrtsLinks()
-	{
-		return driver.findElement(AllMyfavrtsLinks);
-	}
 
-	public WebElement getRecentlyViewedLink()
-	{
-		return driver.findElement(RecentlyViewedLink);
-		
-	}
-	
-	public WebElement getFavrtsFrwrdBtn()
-	{
-		return driver.findElement(FavrtsFrwrdBtn);
-		
-	}
-	
-	public WebElement getFavrtsBckBtn()
-	{
-		return driver.findElement(FavrtsBckBtn);
-		
-	*/
-	
-
-	
 
 }
